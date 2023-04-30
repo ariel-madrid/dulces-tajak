@@ -11,7 +11,7 @@ const ProductList = (props) =>
     }
 
     return (
-        <div className="grid grid-cols-4 items-center justify-center w-screen overflow-y-scroll">
+        <div className="flex flex-col lg:grid lg:grid-cols-4 items-center justify-center w-screen">
             <ProductItem/>
             <ProductItem/>
             <ProductItem/>

@@ -5,8 +5,8 @@ const Home = () => {
     return (
         <>
             <div className="flex flex-col h-screen bg-center bg-no-repeat">
-                <div className="grid place-items-center mx-auto p-20 sm:my-auto bg-white rounded-3xl space-y-10">
-                    <h1 className="text-5xl font-semibold text-blue-500">Redes sociales</h1>
+                <div className="flex flex-col items-center justify-center mx-auto p-20 sm:my-auto bg-white rounded-3xl space-y-10">
+                    <h1 className="text-5xl text-center font-semibold text-blue-500">Redes Sociales</h1>
                     <div className="flex items-center justify-center space-x-3">
 
                         <a href="https://www.facebook.com/andreachocolates2.0" target="_blank"><button className="bg-blue-500 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
