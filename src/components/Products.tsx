@@ -6,7 +6,7 @@ const Products = (props) =>
     const [product, setProduct] = useState('')
     return (
         <div className="flex flex-col items-center justify-center h-1/3 w-1/3 mt-10 mb-4">
-            <div className="flex flex-row gap-12 h-auto w-auto">
+            <div className="flex flex-row gap-12 lg:h-auto lg:w-auto">
                 <button onClick={() => {setProduct("cuchufli")}} className={product==="cuchufli" ? "flex flex-col items-center justify-center p-8 rounded-xl shadow-xl bg-orange-300 w-52 h-1/3 ":"flex flex-col items-center justify-center p-8 rounded-xl shadow-xl bg-orange-100 w-52 h-1/3 hover:bg-orange-200"}>
                     <h3 className="font-bold text-xl font-serif">Cuchuflis</h3>
                 </button>

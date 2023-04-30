@@ -14,7 +14,7 @@ const Navbar = () =>
 
         <nav className="nav font-semibold text-lg">
             <ul className="flex items-center">
-                <li className="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
+                <li className="ml-6 p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">
                   <a href="">Inicio</a>
                 </li>
                 <li className="p-4 border-b-2 border-green-500 border-opacity-0 hover:border-opacity-100 hover:text-green-500 duration-200 cursor-pointer">

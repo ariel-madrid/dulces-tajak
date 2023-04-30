@@ -9,7 +9,7 @@ const HomePage = () =>
         setData(product)
     }
     return (
-        <div className="flex flex-col items-center w-screen ml-4 mr-4 h-screen">
+        <div className="flex flex-col items-center w-screen ml-4 mr-4 h-screen ">
             <Products handleCallback={Callback}/>
             <ProductList dataToSend={data}/>
         </div>
