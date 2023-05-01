@@ -20,7 +20,7 @@ const Home = () => {
                             <span>Instagram</span>
                         </button></a>
                     </div>
-                    <Link to="/home"><button className="bg-blue-400 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                    <Link to="/productos"><button className="bg-blue-400 px-4 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
                         <span>Ir a ver productos</span>
                     </button></Link>
                 </div>

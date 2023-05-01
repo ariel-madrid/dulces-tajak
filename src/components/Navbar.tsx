@@ -8,7 +8,7 @@ const Navbar = () =>
         
         <h1 className="w-3/12 font-bold text-2xl">
             <a href="">
-              <img className='h-20 w-20 m-2' src={logo}/>
+              <img className='h-24 w-24 m-2' src={logo}/>
             </a>
         </h1>
 
