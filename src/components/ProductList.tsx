@@ -4,15 +4,13 @@ import ProductItem from "../components/ProductItem";
 const ProductList = (props) =>
 {
     const [listOfProductsCuchufli, setListOfProductsCuchufli] = useState(
-        [{id:1, titulo:"Caja 50 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"50 unidades",prop3:"Entrega a domicilio"},
-         {id:2, titulo:"Caja 40 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Coco rayado y mostacillas",prop3:"Entrega a domicilio"},
-         {id:3, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Chocolate blanco y negro",prop3:"Entrega a domicilio"},
-         {id:4, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Manjar sin azucar",prop3:"Entrega a domicilio"}])
+        [{id:1, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Bañados en chocolate blanco",prop3:"Entrega a domicilio", ima:"/src/assets/cuch-rosado.png"},
+         {id:3, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Chocolate blanco y negro con rayas",prop3:"Entrega a domicilio", ima:"/src/assets/banados.png"},
+         {id:4, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Manjar sin azucar",prop3:"Entrega a domicilio", ima:"/src/assets/normal-sin-azucar.png"},
+         {id:5, titulo:"Caja 40 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Bañados en chocolate negro",prop3:"Entrega a domicilio", ima:"/src/assets/cuch-choc.png"}])
     
     const [listOfProductsAlfajor, setListOfProductsAlfajor] = useState(
-        [{id:1, titulo:"Caja 35 unidades alfajor", prop1:"Rellenos de manjar", prop2:"3 capas",prop3:"Entrega a domicilio"},
-        {id:2, titulo:"Caja 20 unidades alfajor", prop1:"Rellenos de manjar", prop2:"3 capas",prop3:"Entrega a domicilio"},
-        {id:3, titulo:"Caja 40 unidades alfajor", prop1:"Rellenos de manjar", prop2:"2 capas",prop3:"Entrega a domicilio"}]
+        [{id:1, titulo:"Caja 15 unidades alfajor", prop1:"Contienen nueces y almendras", prop2:"2 capas",prop3:"Entrega a domicilio", ima:"/src/assets/alfajores.png"},]
     )
 
     const [listOfProductsMermelada, setListOfProductsMermelada] = useState(

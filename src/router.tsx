@@ -10,7 +10,7 @@ const router = createHashRouter([
     path: "/",
     element: <App/>,
     children: [
-      {path:"inicio", element:<Home></Home>},
+      {path:"/inicio", element:<Home></Home>},
       {path:"productos", element:<HomePage/>},
       {path:"contacto", element:<Contact/>},
     ]
