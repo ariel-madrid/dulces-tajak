@@ -1,16 +1,20 @@
 import React, { useState } from "react";
-
+import Rosado from "/public/assets/cuch-rosado.png";
+import Normal from "/public/assets/normal-sin-azucar.png";
+import Banados from "/public/assets/banados.png";
 import ProductItem from "../components/ProductItem";
+import Choc from "/public/assets/cuch-choc.png";
+import Alfajores from "/public/assets/alfajores.png";
 const ProductList = (props) =>
 {
     const [listOfProductsCuchufli, setListOfProductsCuchufli] = useState(
-        [{id:1, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Bañados en chocolate blanco",prop3:"Entrega a domicilio", ima:"/public/assets/cuch-rosado.png"},
-         {id:3, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Chocolate blanco y negro con rayas",prop3:"Entrega a domicilio", ima:"/public/assets/banados.png"},
-         {id:4, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Manjar sin azucar",prop3:"Entrega a domicilio", ima:"/public/assets/normal-sin-azucar.png"},
-         {id:5, titulo:"Caja 40 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Bañados en chocolate negro",prop3:"Entrega a domicilio", ima:"/public/assets/cuch-choc.png"}])
+        [{id:1, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Bañados en chocolate blanco",prop3:"Entrega a domicilio", ima:Rosado},
+         {id:3, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Chocolate blanco y negro con rayas",prop3:"Entrega a domicilio", ima:Banados},
+         {id:4, titulo:"Caja 35 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Manjar sin azucar",prop3:"Entrega a domicilio", ima:Normal},
+         {id:5, titulo:"Caja 40 unidades cuchufli", prop1:"Rellenos de manjar", prop2:"Bañados en chocolate negro",prop3:"Entrega a domicilio", ima:Choc}])
     
     const [listOfProductsAlfajor, setListOfProductsAlfajor] = useState(
-        [{id:1, titulo:"Caja 15 unidades alfajor", prop1:"Contienen nueces y almendras", prop2:"2 capas",prop3:"Entrega a domicilio", ima:"/public/assets/alfajores.png"},]
+        [{id:1, titulo:"Caja 15 unidades alfajor", prop1:"Contienen nueces y almendras", prop2:"2 capas",prop3:"Entrega a domicilio", ima:Alfajores},]
     )
 
     const [listOfProductsMermelada, setListOfProductsMermelada] = useState(
