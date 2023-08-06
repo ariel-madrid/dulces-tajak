@@ -4,7 +4,7 @@ import Information from "./Information";
 const ProductItem = (props) => {
     const item = props.data
     const [info, setInfo] = useState(false)
-    const email = "ariel.argomedo@usach.cl"
+    const email = "dulcestajak@gmail.cl"
     const [subject, setSubject] = useState("")
     const [body, setBody] = useState('')
     return (
@@ -84,7 +84,7 @@ const ProductItem = (props) => {
                                                 type="button"
                                                 onClick={() => setInfo(false)}
                                             >
-                                                <a href={`mailto:${email}?subject=${subject}&body=${body}`}>Pedir</a>
+                                                <a href={`mailto:${email}?subject=${subject}&body=${subject}`}>Pedir</a>
 
                                             </button>
                                         </div>

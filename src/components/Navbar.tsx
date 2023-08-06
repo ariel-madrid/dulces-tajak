@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/TAJAK.svg'
+import logo from '/public/assets/TAJAK.svg'
 import { Link } from 'react-router-dom'
 const Navbar = () => 
 {

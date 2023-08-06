@@ -7,7 +7,7 @@ const Home = () => {
             <div className="flex flex-col h-screen bg-center bg-no-repeat">
                 
                 <div className="flex flex-col items-center justify-center mx-auto p-20 sm:my-auto bg-white rounded-3xl space-y-10">
-                    <img className="w-1/3 rounded-xl" src="src/assets/TAJAK.png"/>
+                    <img className="w-1/3 rounded-xl" src="/public/assets/TAJAK.png"/>
                     <h1 className="text-5xl text-center font-semibold text-blue-500">Redes Sociales</h1>
                     <div className="flex items-center justify-center space-x-3">
 
